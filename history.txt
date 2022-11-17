@@ -1,0 +1,50 @@
+    1  cd
+    2  hostnamectl set-hostname ubuntumachine
+    3  exec bash
+    4  cd
+    5  ls
+    6  cd mumbaigit/
+    7  git branch
+    8  cat >branchfile1
+    9  cat branchfile1 
+   10  git checkout master
+   11  ls
+   12  git checkout branch1
+   13  git status
+   14  git add .
+   15  git commit -m "first commit from branch1"
+   16  git checkout master
+   17  ls
+   18  git merge branch1
+   19  ls
+   20  git push origin master
+   21  git log --oneline
+   22  cat >demofile
+   23  git add .
+   24  git commit -m "nayifile"
+   25  cat >demofile
+   26  git stash
+   27  cat demofile
+   28  git stash 
+   29  git stash --list
+   30  git stash list
+   31  git stash apply stash@{0}
+   32  git add .
+   33  git commit -m "nayifile me ghuspainth"
+   34  git stash list
+   35  git stash clear
+   36  git stash list
+   37  touch resetfile
+   38  git add .
+   39  git status 
+   40  git reset resetfile
+   41  git status 
+   42  git add .
+   43  git reset resetfile --hard
+   44  git reset --hard
+   45  ls
+   46  grep history >history.txt
+   47  grep history |cat >history.txt
+   48  ls
+   49  cat history.txt
+   50  history >history.txt
